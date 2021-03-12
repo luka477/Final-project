@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 .header-bg {
 	background-image: url(../img/mountines.jpg);
 	width: 100%;
@@ -28,10 +29,15 @@
 	color: black;
 	font-family: 'Poppins', sans-serif;
 }
-.text-1 {
+/*ნავიგაციის სულელური ანიმაცია*/
+.text-1-1,
+.text-1-2,
+.text-1-3,
+.text-1-4
+ {
 	color: white;
 }
-.text-1::after {
+.text-1-2::after {
 	content: '';
 	display: block;
 	width: 0;
@@ -39,13 +45,45 @@
 	background-color: white;
 	transition: width .4s;
 }
-.text-1:hover::after {
+.text-1-2:hover::after {
 	width: 100%;
 	transition: width .4s;
+}
+.text-1-3::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: white;
+	transition: width .4s;
+}
+.text-1-3:hover::after {
+	width: 100%;
+	transition: width .4s;
+}
+.text-1-4::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: white;
+	transition: width .4s;
+}
+.text-1-4:hover::after {
+	width: 100%;
+	transition: width .4s;
+}
+.text-1-1::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: white;
 }
 .text-1:hover {
 	color: #D8D8D8;
 }
+/*აქამდე*/
 .div-2 {
 	width: 148px;
 	height: 35px;
@@ -100,10 +138,126 @@
 }
 .div-5:hover {
 	background-color: red;
+	width: 292px;
+	height: 81px;
 }
 .fa-bars {
 	display: none;
 	font-size: 30px;
 	color: white;
 	margin-right: 5%;
+}
+.text-4 {
+	font-size: 64px;
+	color: black;
+	font-family: 'Oswald', sans-serif;
+}
+.div-6 {
+	margin-top: 53px;
+	display: flex;
+	justify-content: center;
+}
+.div-7 {
+	max-width: 1088px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top: 63px;
+	flex-wrap: wrap;
+}
+.div-8 {
+	max-width: 516px;
+	width: 100%;
+	box-shadow: 5px 10px 18px #888888;
+	border-radius: 50px;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear; 
+}
+.div-8:hover {
+	box-shadow: 0px 0px 0px #0000;
+
+}
+.text-5 {
+	font-size: 43px;
+	color: black;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 28px;
+}
+.img-1 {
+	width: 516px;
+	height: 405px;
+	background-color: #003554;
+	position: absolute;
+	z-index: 2;
+	opacity: 35%;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+.img-1:hover {
+	opacity: 0%;
+}
+.text-6 {
+	width: 370px;
+	font-size: 22px;
+	color: #A1A1A1;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 28px;
+}
+.div-9 {
+	width: 288px;
+	height: 80px;
+	background-color: #0582CA;
+	border-radius: 50px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 51px;
+	margin-top: 37px;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+.div-9:hover {
+	background-color: red;
+	width: 329px;
+	height: 91px;
+}
+.div-10 {
+	width: 288px;
+	height: 80px;
+	background-color: #0582CA;
+	border-radius: 50px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 51px;
+	margin-top: 20px;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+.div-10:hover {
+	background-color: red;
+	width: 329px;
+	height: 91px;
+}
+.img-2 {
+	position: relative;
+}
+.text-7 {
+	font-size: 22px;
+	color: white; 
+	font-family: 'Poppins', sans-serif;
 }
