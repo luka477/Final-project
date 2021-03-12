@@ -128,3 +128,46 @@
 		font-size: 30px;
 	}
 }
+@media (max-width: 1125px) {
+	.text-8 {
+		width: 700px;
+		text-align: center;
+	}
+	.text-9 {
+		margin-top: 365px;
+	} 
+}
+@media (max-width: 890px) {
+	.text-9 {
+		font-size: 20px;
+	}
+}
+@media (max-width: 670px) {
+	.text-8 {
+		width: 400px;
+		font-size: 43px;
+	}
+	.text-9 {
+		font-size: 13px;
+		width: 350px;
+		text-align: center;
+		margin-top: 385px;
+	}
+	.div-14 {
+		width: 229.5px;
+		height: 54px;
+	}
+	.text-10 {
+		font-size: 15px;
+	}
+}
+@media (max-width: 440px) {
+	.text-8 {
+		font-size: 30px;
+		width: 300px;
+	}
+	.text-9 {
+		width: 300px;
+		margin-top: 370px;
+	}
+}
