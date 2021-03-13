@@ -26,7 +26,6 @@
 	width: 438px;
 	justify-content: space-between;
 	font-size: 24px;
-	color: black;
 	font-family: 'Poppins', sans-serif;
 }
 /*ნავიგაციის სულელური ანიმაცია*/
@@ -125,11 +124,12 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-left: 136px;
-	margin-top: 17px;
+	margin-left: 272px;
+	margin-top: 68px;
 	transition-property: all;
 	transition-duration: 0.2s;
 	transition-timing-function: linear;
+	transform: translate(-50%, -50%);
 }
 .text-3 {
 	font-size: 24px;
@@ -424,4 +424,97 @@
 	font-size: 20px;
 	color: white;
 	margin-left: 50px;
+}
+/*about.html*/
+.header-2 {
+	width: 100%;
+	height: 146px;
+	box-shadow: 5px 5px 10px #DFDADA;
+}
+.text-15 {
+	color: black;
+	font-size: 41px;
+	font-family: 'Poppins', sans-serif;
+}
+.div-25 {
+	display: flex;
+	align-items: center;
+	padding-top: 42px;
+	margin-left: 139px;
+}
+.nav-ul-1 {
+	display: flex;
+	width: 438px;
+	justify-content: space-between;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	margin-left: 83.7px;
+}
+.text-2-1,
+.text-2-2,
+.text-2-3,
+.text-2-4
+ {
+	color: black;
+}
+.text-2-2::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: black;
+}
+.text-2-2:hover::after {
+	width: 100%;
+	transition: width .4s;
+}
+.text-2-3::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: black;
+	transition: width .4s;
+}
+.text-2-3:hover::after {
+	width: 100%;
+	transition: width .4s;
+}
+.text-2-4::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: black;
+	transition: width .4s;
+}
+.text-2-4:hover::after {
+	width: 100%;
+	transition: width .4s;
+}
+.text-2-1::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: black;
+	transition: width .4s;
+}
+.text-2-1:hover::after {
+	width: 100%;
+	transition: width .4s;
+}
+.div-2-2 {
+	width: 148px;
+	height: 35px;
+	border-radius: 50px;
+	border: solid;
+	border-width: 2px;
+	border-color: black;
+	margin-left: 50px;
+}
+.img-5 {
+	display: none;
+	height: 25px;
 }
