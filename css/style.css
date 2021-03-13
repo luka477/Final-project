@@ -337,11 +337,12 @@
 .footer-1 {
 	background-image: url(../img/qwqwqwqwqwqwqw.png);
 	width: 100%;
-	height: 521.68px;
+	height: auto;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	margin-top: 209px;
+	padding-bottom: 110px;
 }
 .div-16 {
 	max-width: 1113px;
