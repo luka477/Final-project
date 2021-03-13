@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 .header-bg {
 	background-image: url(../img/mountines.jpg);
 	width: 100%;
@@ -428,8 +430,13 @@
 /*about.html*/
 .header-2 {
 	width: 100%;
-	height: 146px;
+	height: 140px;
 	box-shadow: 5px 5px 10px #DFDADA;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	z-index: 7
 }
 .text-15 {
 	color: black;
@@ -440,7 +447,7 @@
 	display: flex;
 	align-items: center;
 	padding-top: 42px;
-	margin-left: 139px;
+	justify-content: center;
 }
 .nav-ul-1 {
 	display: flex;
@@ -517,4 +524,95 @@
 .img-5 {
 	display: none;
 	height: 25px;
+}
+/*section*/
+.text-16 {
+	font-size: 45px;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-top: 41px;
+}
+.div-26 {
+	max-width: 1088px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+.text-17 {
+	max-width: 536px;
+	width: 100%;
+	text-align: left;
+	font-size: 24px;
+	font-family: 'Poppins', sans-serif;	
+	line-height: 35px;
+}
+.div-27 {
+	max-width: 1088px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 83px;
+}
+.text-18 {
+	max-width: 536px;
+	width: 100%;
+	text-align: right;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;	
+	line-height: 46px;
+}
+/*section*/
+.section-2-2 {
+	background-image: url(../img/Web1366.jpg);
+	width: 100%;
+	height: 421px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 111px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text-19 {
+	font-size: 81px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+.div-28 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-top: 54px;
+}
+.text-20 {
+	position: absolute;
+	color: white;
+	font-family: 'RocknRoll One', sans-serif;
+	font-size: 90px;
+	margin-top: 102px;
+}
+.text-21 {
+	font-size: 41px;
+	text-align: center;
+	width: 790px;
+	line-height: 61px;	
+	color: #E4E4E4;
+	position: absolute;
+	margin-top: 449px;
+	font-family: 'Poppins', sans-serif;
+	opacity: 60%;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+.text-21:hover {
+	opacity: 1;
+	color: white;
 }

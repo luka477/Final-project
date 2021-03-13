@@ -43,6 +43,16 @@
 	.text-2 {
 		font-size: 41px;
 	}
+	.text-17,
+	.text-18 {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.div-26,
+	.div-27 {
+		padding-right: 5%;
+		padding-left: 5%;
+	}
 }
 @media (max-width: 460px) {
 	.text-2 {
@@ -50,6 +60,25 @@
 	}
 	.text {
 		font-size: 35px;
+	}
+	.div-26,
+	.div-27 {
+		padding-right: 0%;
+		padding-left: 0%;
+	}
+	.text-17,
+	.text-18 {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.text-17 {
+		margin-top: 10px;
+	}
+	.div-27 {
+		margin-top: 10px;
+	}
+	.text-18 {
+		margin-top: 10px;
 	}
 }
 @media (max-width: 370px) {
@@ -72,6 +101,10 @@
 @media (max-width: 450px) {
 	.text-4 {
 		font-size: 35px;
+	}
+	.text-19 {
+		font-size: 30px;
+		text-align: center;
 	}
 }
 @media (max-width: 600px) {
@@ -183,10 +216,30 @@
 		display: block;
 		margin-right: 33px;
 	}
+	.div-27,
+	.div-26 {
+		flex-direction: column;
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+	.text-17,
+	.text-18 {
+		text-align: center;
+	}
+	.div28 {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.img-6 {
+		margin-top: 20px;
+	}
 }
 @media (max-width: 890px) {
 	.text-9 {
 		font-size: 20px;
+	}
+	.text-19 {
+		font-size: 64px;
 	}
 }
 @media (max-width: 670px) {
@@ -206,6 +259,9 @@
 	}
 	.text-10 {
 		font-size: 15px;
+	}
+	.text-19 {
+		font-size: 50px;
 	}
 }
 @media (max-width: 440px) {
