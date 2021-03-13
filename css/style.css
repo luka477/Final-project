@@ -334,3 +334,93 @@
 .div-14:hover {
 	opacity: 1
 }
+.footer-1 {
+	background-image: url(../img/qwqwqwqwqwqwqw.png);
+	width: 100%;
+	height: 521.68px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 209px;
+}
+.div-16 {
+	max-width: 1113px;
+	width: 100%;
+	padding-top: 104.7px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.text-11 {
+	font-size: 34px;
+	color: white;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+.text-12 {
+	font-size: 20px;
+	color: white;
+	margin-top: 7px;
+	font-family: 'Roboto', sans-serif;
+}
+.div-17 {
+	position: absolute;
+	z-index: 4;
+}
+.div-17 {
+	margin-left: 100px;
+}
+.div-18,
+.div-19 {
+	margin-left: 48px;
+}
+.div-20 {
+	display: flex;
+	justify-content: space-between;
+	max-width: 250px;
+	align-items: center;
+}
+.text-13 {
+	width: 250px;
+	font-size: 20px;
+	color: white;
+	margin-top: 7px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 21px;
+}
+.fa-map-marker-alt {
+	font-size: 25px;
+	color: white;
+}
+.fa-envelope {
+	font-size: 25px;
+	color: white;
+}
+.div-21 {
+	display: flex;
+	justify-content: space-between;
+	max-width: 250px;
+	align-items: center;
+	margin-top: 19px;
+}
+.div-22 {
+	width: 316px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 19px;
+}
+.div-23 {
+	width: 255px;
+	height: 52px;
+	border-radius: 50px;
+	opacity: 50%;
+	background-color: #006494;
+	display: flex;
+	align-items: center;
+}
+.text-14 {
+	font-size: 20px;
+	color: white;
+	margin-left: 50px;
+}
