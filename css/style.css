@@ -616,3 +616,61 @@
 	opacity: 1;
 	color: white;
 }
+.div-29 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-top: 107px;
+}
+.text-22 {
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	margin-top: 59px;
+	color: white;
+}
+.text-23 {
+	font-size: 30px;
+	width: 904px;
+	line-height: 46px;	
+	font-family: 'Poppins', sans-serif;
+	margin-top: 193px;
+	position: absolute;
+	color: white;
+	text-align: center;
+}
+.img-40 {
+	display: none;
+	margin-left: 25px;
+}
+.div-30 {
+	max-width: 1088px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 97px;
+	margin-right: auto;
+	margin-left: auto;
+	align-items: center;
+}
+.div-31 {
+	position: relative;
+	width: 536px;
+	height: 637px;
+	display: flex;
+}
+.text-24 {
+	font-size: 61px;
+	font-family: 'RocknRoll One', sans-serif;
+	position: absolute;
+	color: white;
+	margin-left: 91px;
+	margin-top: 274px;
+}
+.text-25 {
+	width: 527px;
+	font-size: 25px;
+	line-height: 38px;	
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
