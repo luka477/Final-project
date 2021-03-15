@@ -1,21 +1,4 @@
 @media (max-width: 999px) {
-	.div-3 {
-		display: none;
-	}
-	nav {
-		display: none;
-	}
-	.text {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.container {
-		width: auto;
-		margin-left: 0;
-	}
-	.fa-shopping-cart {
-		display: none;
-	}
 	.div-4 {
 		justify-content: center;
 		margin-left: 0;
@@ -28,9 +11,6 @@
 	}
 	.text-2 {
 		font-size: 50px;
-	}
-	.fa-bars {
-		display: block;
 	}
 	.div-28 {
 		width: 480px;
@@ -50,6 +30,13 @@
 	.div-28 {
 		margin-right: auto;
 		margin-left: auto;
+	}
+	.text-26 {
+		display: none;
+		color: red
+	}
+	.text-99 {
+		display: block;
 	}
 }
 @media (max-width: 700px){
@@ -299,6 +286,31 @@
 	.div-30 {
 		flex-direction: column;
 	}
+	.text-26 {
+		width: 887px;
+		font-size: 20px;
+		line-height: 37px;
+	}
+	nav {
+		display: none;
+	}
+	.text {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.container {
+		width: auto;
+		margin-left: 0;
+	}
+	.fa-shopping-cart {
+		display: none;
+	}
+	.fa-bars {
+		display: block;
+	}
+	.div-3 {
+		display: none;
+	}
 }
 @media (max-width: 890px) {
 	.text-9 {
@@ -362,6 +374,12 @@
 	}
 	.div-30 {
 		margin-top: 40px
+	}
+	.text-99 {
+		width: 250px;
+		font-size:15px;
+		line-height: 25px;
+		margin-top: 155px;
 	}
 }
 @media (max-width: 440px) {

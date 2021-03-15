@@ -688,12 +688,12 @@
 }
 .text-26 {
 	font-size: 30px;
-	line-height: 46px;
 	color: white;
-	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	width: 1088px;
-	padding-top: 202px;
+	line-height: 46px;
+	text-align: center;
+	margin-top: 202px;
 }
 .text-27 {
 	font-size: 14px;
@@ -708,6 +708,8 @@
 	align-items: center;
 	justify-content: center;
 	border: none;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 49px;
 	transition-property: all;
 	transition-duration: 0.2s;
@@ -717,4 +719,14 @@
 	width: 212.58px;
 	height: 60.45px;
 	background-color: red;
+}
+.text-99 {
+	font-size: 20px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	width: 600px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 202px;
+	display: none;
 }
