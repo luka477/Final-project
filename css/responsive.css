@@ -38,6 +38,16 @@
 	.text-99 {
 		display: block;
 	}
+	.text-28 {
+		font-size: 50px;
+	}
+	.button-2 {
+		width: 150px;
+		height: 54px;
+	}
+	.text-29 {
+		font-size: 11px;
+	}
 }
 @media (max-width: 700px){
 	.div-5 {
@@ -64,6 +74,16 @@
 		width: 356px;
 		font-size: 19px;
 		line-height: 25px;	
+	}
+	.text-28 {
+		font-size: 35px;
+		width: 250px;
+		text-align: center;
+		line-height: 45px;
+	}
+	.button-2:hover {
+		width: 150px;
+		height: 54px;
 	}
 }
 @media (max-width: 460px) {
