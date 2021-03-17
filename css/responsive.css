@@ -85,6 +85,22 @@
 		width: 150px;
 		height: 54px;
 	}
+	.img-41 {
+		width: 314px;
+		height: 353px;
+	}
+	.text-31 {
+		font-size: 13px;
+		line-height: 20px;
+		width: 350px;
+	}
+	.button-3 {
+		width: 180px;
+		height: 52px;
+	}
+	.text-32 {
+		font-size: 15px;
+	}
 }
 @media (max-width: 460px) {
 	.text-2 {
@@ -111,6 +127,18 @@
 	}
 	.text-18 {
 		margin-top: 10px;
+	}
+	.img-41 {
+		width: 218px;
+		height: 245px;
+	}
+	.text-31 {
+		font-size: 12px;
+		line-height: 15px;
+		width:250px;
+	}
+	.text-30 {
+		font-size: 50px;
 	}
 }
 @media (max-width: 370px) {
@@ -330,6 +358,12 @@
 	}
 	.div-3 {
 		display: none;
+	}
+	.div-33 {
+		flex-direction: column;
+	}
+	.div-35 {
+		margin-top: 30px;
 	}
 }
 @media (max-width: 890px) {

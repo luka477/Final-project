@@ -828,3 +828,48 @@
 	width: 286px;
 	height: 87px;
 }
+.div-26 {
+	width: 495px;
+	height: 557px;
+}
+.text-30{
+	font-size: 60px;
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-top: 60px;
+}
+.div-33 {
+	max-width: 1088px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 54px;
+	margin-right: auto;
+	margin-left: auto;
+	align-items: center;
+}
+.text-31 {
+	font-size: 20px;
+	line-height: 30px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	width: 536px;
+}
+.text-32 {
+	font-size: 21px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+.button-3 {
+	width: 260px;
+	height: 75px;
+	background-color: #0582CA;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	margin-top: 26px;
+	margin-right: auto;
+	margin-left: auto;
+}
