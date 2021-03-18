@@ -101,6 +101,11 @@
 	.text-32 {
 		font-size: 15px;
 	}
+	/*.tex-33 {
+		font-size: 30px;
+		width: 430px;
+		line-height: 44px;
+	}*/
 }
 @media (max-width: 460px) {
 	.text-2 {
@@ -372,6 +377,11 @@
 	}
 	.text-19 {
 		font-size: 64px;
+	}
+	.tex-33 {
+		font-size: 34px;
+		width: 650px;
+		line-height: 50px;
 	}
 }
 @media (max-width: 670px) {

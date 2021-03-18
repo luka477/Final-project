@@ -828,10 +828,6 @@
 	width: 286px;
 	height: 87px;
 }
-.div-26 {
-	width: 495px;
-	height: 557px;
-}
 .text-30{
 	font-size: 60px;
 	color: black;
@@ -870,6 +866,34 @@
 	align-items: center;
 	border-radius: 50px;
 	margin-top: 26px;
+	margin-right: auto;
+	margin-left: auto;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+}
+.button-3:hover {
+	background-color: #003554;
+	width: 285px;
+	height: 82px;
+}
+.section-33 {
+	background-image: url(../img/ljihwoabconcaq.png);
+	width: 100%;
+	height: 535px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 149px;
+}
+.tex-33 {
+	font-size: 40px;
+	width: 854px;
+	line-height: 60px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: white;
+	padding-top: 133px;
 	margin-right: auto;
 	margin-left: auto;
 }
