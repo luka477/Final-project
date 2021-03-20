@@ -989,3 +989,25 @@
 	background-color: white;
 	border-radius: 12px;
 }
+.div-36 {
+	max-width: 437px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+.div-37 {
+	width: 200px;
+	height: 61px;
+	border-radius: 17px;
+	border: solid;
+	border-width: 2px;
+	border-color: #ABABAB;
+}
+.div-37::placeholder {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	padding-left: 50px;
+}
