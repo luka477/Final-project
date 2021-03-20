@@ -1123,7 +1123,7 @@ span {
 .social-icons:nth-child(4):hover .icon {
 	background: #bd081c;
 }
-.social-icons:nth-child(4):hover .icon {
+.social-icons:nth-child(5):hover .icon {
 	background: red;
 }
 .social-icons:nth-child(1):hover span {
@@ -1138,6 +1138,6 @@ span {
 .social-icons:nth-child(4):hover span {
 	color: #bd081c;
 }
-.social-icons:nth-child(4):hover span {
+.social-icons:nth-child(5):hover span {
 	color: red;
 }
