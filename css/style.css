@@ -1167,3 +1167,6 @@ span {
 	display: flex;
 	justify-content: flex-end;
 }
+input[type=text]:focus {
+  outline:none
+}
