@@ -148,6 +148,10 @@
 	font-size: 30px;
 	color: white;
 	margin-right: 5%;
+	float: right;
+}
+.navbar {
+	display: flex;
 }
 .text-4 {
 	font-size: 64px;
