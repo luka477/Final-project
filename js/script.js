@@ -1,6 +1,6 @@
-const faBars = document.getElementsByClassName('fa-bars')[0]
-const nav = document.getElementsByClassName('nav')[0]
+const faBars = document.getElementsByClassName('toggle-button')[0]
+const nav = document.getElementsByClassName('nav-ul')[0]
 
-faBars.addEventListeren('click', () => {
-	nav.classList.fa('active')
-})
+faBars.addEventListener('click', () => {
+	nav.classList.toggle('active')
+});
