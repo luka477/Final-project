@@ -440,14 +440,8 @@
 	.nav {
 		display: none;
 	}
-	.smth-wrap {
-		flex-direction: column;
-	}
 	.nav {
 		margin-top: 35px;
-	}
-	.container {
-		flex-direction: column;
 	}
 	.text {
 		margin-left: auto;
